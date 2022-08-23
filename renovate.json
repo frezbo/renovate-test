@@ -16,12 +16,10 @@
     ],
     "packageRules": [
         {
-            "matchPackagePatterns": [
-                "kernel"
+            "matchPackageNames": [
+                "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
             ],
-            "matchUpdateTypes": [
-                "patch"
-            ]
+            "allowedVersions": ">= 5.15"
         }
     ]
 }

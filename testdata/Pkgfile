@@ -11,12 +11,12 @@ vars:
   binutils_sha512: 5c11aeef6935860a6819ed3a3c93371f052e52b4bdc5033da36037c1544d013b7f12cb8d561ec954fe7469a68f1b66f1a3cd53d5a3af7293635a90d69edd15e7
 
   # renovate: datasource=git-tags extractVersion=^releases/gcc-(?<version>.*)$ depName=git://gcc.gnu.org/git/gcc.git
-  gcc_version: 12.1.0
+  gcc_version: 12.2.0
   gcc_sha256: e549cf9cf3594a00e27b6589d4322d70e0720cdd213f39beb4181e06926230ff
   gcc_sha512: e9e857bd81bf7a370307d6848c81b2f5403db8c7b5207f54bce3f3faac3bde63445684092c2bc1a2427cddb6f7746496d9fbbef05fbbd77f2810b2998f1f9173
 
   # renovate: datasource=git-tags depName=https://gitlab.inria.fr/mpfr/mpfr.git
-  mpfr_version: 4.0.2
+  mpfr_version: 4.1.0
   mpfr_sha256: 0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f
   mpfr_sha512: 1bd1c349741a6529dfa53af4f0da8d49254b164ece8a46928cdb13a99460285622d57fe6f68cef19c6727b3f9daa25ddb3d7d65c201c8f387e421c7f7bee6273
 
@@ -25,7 +25,7 @@ vars:
   gmp_sha512: c99be0950a1d05a0297d65641dd35b75b74466f7bf03c9e8a99895a3b2f9a0856cd17887738fa51cf7499781b65c049769271cbcb77d057d2e9f1ec52e07dd84
 
   # renovate: datasource=git-tags depName=https://gitlab.inria.fr/mpc/mpc.git
-  mpc_version: 1.2.0
+  mpc_version: 1.2.1
   mpc_sha256: 17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459
   mpc_sha512: 3279f813ab37f47fdcc800e4ac5f306417d07f539593ca715876e43e04896e1d5bceccfb288ef2908a3f24b760747d0dbd0392a24b9b341bc3e12082e5c836ee
 

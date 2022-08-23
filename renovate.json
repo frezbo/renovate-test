@@ -31,7 +31,7 @@
                 "(?<depName>ghcr.io\\/siderolabs\\/toolchain):(?<currentValue>v.*)\\n"
             ],
             "datasourceTemplate": "docker",
-            "versioningTemplate": "semver"
+            "versioningTemplate": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<build>\\d+))?(-(?<compatibility>[a-z0-9]{8}))"
         }
     ],
     "packageRules": [

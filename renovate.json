@@ -22,6 +22,16 @@
             ],
             "datasourceTemplate": "docker",
             "versioningTemplate": "semver"
+        },
+        {
+            "fileMatch": [
+                "testdata/Pkgfile"
+            ],
+            "matchStrings": [
+                "(?<depName>ghcr.io\\/siderolabs\\/toolchain):(?<currentValue>v.*)\\n"
+            ],
+            "datasourceTemplate": "docker",
+            "versioningTemplate": "semver"
         }
     ],
     "packageRules": [

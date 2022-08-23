@@ -20,7 +20,8 @@
             "matchStrings": [
                 "# syntax\\s+=\\s+(?<depName>ghcr.io\\/siderolabs\\/bldr):(?<currentValue>v.*)\\n"
             ],
-            "datasourceTemplate": "docker"
+            "datasourceTemplate": "docker",
+            "versioningTemplate": "docker"
         }
     ],
     "packageRules": [

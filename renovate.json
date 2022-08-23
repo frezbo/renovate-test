@@ -21,7 +21,7 @@
                 "# syntax\\s+=\\s+(?<depName>ghcr.io\\/siderolabs\\/bldr):(?<currentValue>v.*)\\n"
             ],
             "datasourceTemplate": "docker",
-            "versioningTemplate": "docker"
+            "versioningTemplate": "semver"
         }
     ],
     "packageRules": [
@@ -31,5 +31,8 @@
             ],
             "allowedVersions": "<= 5.15"
         }
+    ],
+    "schedule": [
+        "at any time"
     ]
 }

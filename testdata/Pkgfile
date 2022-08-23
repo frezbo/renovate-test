@@ -4,7 +4,7 @@ format: v1alpha2
 
 vars:
   BOOTSTRAP: /bootstrap
-  TOOLCHAIN_IMAGE: ghcr.io/siderolabs/toolchain:v0.6.0-2-gee7deca
+  TOOLCHAIN_IMAGE: ghcr.io/siderolabs/toolchain:v0.6.0
 
   # renovate: datasource=git-tags extractVersion=^binutils-(?<version>.*)$ versioning=loose depName=git://sourceware.org/git/binutils-gdb.git
   binutils_version: 2_39

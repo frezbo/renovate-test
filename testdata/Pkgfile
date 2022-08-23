@@ -36,8 +36,8 @@ vars:
   linux_series: v5.x
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.musl-libc.org/musl
-  musl_version: 1.2.2
-  musl_sha256: 7d5b0b6062521e4627e099e4c9dc8248d32a30285e959b7eecaa780cf8cfd4a4
+  musl_version: 1.2.3
+  musl_sha256: 7a43f6fea9081bdd53d8a11cef9e9fab0348c53d
   musl_sha512: 9332f713d3eb7de4369bc0327d99252275ee52abf523ee34b894b24a387f67579787f7c72a46cf652e090cffdb0bc3719a4e7b84dca66890b6a37f12e8ad089c
 
 labels:

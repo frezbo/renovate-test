@@ -16,8 +16,8 @@
     ],
     "packageRules": [
         {
-            "matchSourceUrls": [
-                "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
+            "matchPackagePatterns": [
+                "kernel"
             ],
             "matchUpdateTypes": [
                 "patch"

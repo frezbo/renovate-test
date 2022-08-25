@@ -11,7 +11,7 @@ vars:
   binutils_sha256: 820d9724f020a3e69cb337893a0b63c2db161dadcb0e06fc11dc29eb1e84a32c
   binutils_sha512: 5c11aeef6935860a6819ed3a3c93371f052e52b4bdc5033da36037c1544d013b7f12cb8d561ec954fe7469a68f1b66f1a3cd53d5a3af7293635a90d69edd15e7
 
-  # renovate: datasource=github-tags extractVersion=^core-(?<version>.*\d+-\d+-\d+)$ versioning=loose depName=tcltk/tcl
+  # renovate: datasource=github-tags extractVersion=^core-(?<version>\\d+\\-\\d+-\\d)$ versioning=loose depName=tcltk/tcl
   tcl_version: 8-6-9
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a

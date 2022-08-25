@@ -11,7 +11,7 @@
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.*?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
             ],
-            "versioningTemplate": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)$"
+            "versioningTemplate": "regex:^core-(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)$"
         },
         {
             "fileMatch": [

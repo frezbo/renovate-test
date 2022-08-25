@@ -12,7 +12,7 @@ vars:
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/bagder/ca-bundle.git
-  cacert_version: 7f33e7e
+  cacert_version: 7bbb8cf
 
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

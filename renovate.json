@@ -11,7 +11,7 @@
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.*?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
             ],
-            "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+            "versioningTemplate": "regex:^core-(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)$"
         },
         {
             "fileMatch": [
@@ -40,6 +40,12 @@
                 "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
             ],
             "allowedVersions": "<= 5.15"
+        },
+        {
+            "matchPackageNames": [
+                "tcltk/tcl"
+            ],
+            "extractVersion": "^(?<major>\\d+)\\.(?<minor>\\d+)$",
         }
     ],
     "schedule": [

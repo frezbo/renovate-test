@@ -34,8 +34,7 @@
         {
             "matchPackageNames": [
                 "tcltk/tcl"
-            ],
-            "allowedVersions": "!/[a-z]+/"
+            ]
         }
     ],
     "schedule": [

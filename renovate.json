@@ -9,7 +9,7 @@
                 "testdata/Pkgfile"
             ],
             "matchStrings": [
-                "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.*?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
+                "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
             ],
             "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
         },
@@ -22,16 +22,6 @@
             ],
             "datasourceTemplate": "docker",
             "versioningTemplate": "semver"
-        },
-        {
-            "fileMatch": [
-                "testdata/Pkgfile"
-            ],
-            "matchStrings": [
-                "(?<depName>ghcr.io\\/siderolabs\\/toolchain):(?<currentValue>v.*)\\n"
-            ],
-            "datasourceTemplate": "docker",
-            "versioningTemplate": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<build>\\d+))?(-(?<compatibility>[a-z0-9]{8}))"
         }
     ],
     "packageRules": [
@@ -45,7 +35,7 @@
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
-            "extractVersion": "^(?<major>\\d+)\\.(?<minor>\\d+)$",
+            "allowedVersions": "/^core-\\d+-\\d+-\\d+$/"
         }
     ],
     "schedule": [

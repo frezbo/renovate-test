@@ -32,9 +32,8 @@
             "allowedVersions": "<= 5.15"
         },
         {
-            "matchPackageNames": [
-                "tcltk/tcl"
-            ]
+            "matchPackageNames": "tcltk/tcl",
+            "versionScheme": "regex:^core-(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
         }
     ],
     "schedule": [

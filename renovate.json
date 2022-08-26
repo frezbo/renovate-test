@@ -12,6 +12,17 @@
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)(?:\\s.*_ref:\\s+(?<currentDigest>.*))?"
             ],
             "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+        },
+        {
+            "fileMatch": [
+                "testdata/Pkgfile"
+            ],
+            "matchStrings": [
+                "# renovate: depName=(?<depName>tcltk\\/tcl)?\\s.*_version:\\s*(?<currentValue>.*)"
+            ],
+            "versioningTemplate": "regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)?$",
+            "extractVersionTemplate": "^core-(?<version>.*)$",
+            "datasourceTemplate": "github-tags"
         }
     ],
     "packageRules": [
@@ -19,7 +30,7 @@
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
-            "allowedVersions": "/[0-9]+-[0-9]+-[0-9]+/"
+            "allowedVersions": "!/[a-z]+/"
         }
     ]
 }

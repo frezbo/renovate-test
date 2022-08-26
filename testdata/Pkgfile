@@ -15,9 +15,9 @@ vars:
   bldr_version: v0.2.0-alpha.7-frontend
 
   # renovate: datasource=docker versioning=loose depName=ubuntu
-  ubuntu_image_version: 22.04
+  ubuntu_image_version: 22.10
 
-  # renovate: datasource=github-releases depName=containerd/containerd
+  # renovate: datasource=github-tags depName=containerd/containerd
   containerd_version: v1.6.7
   containerd_ref: aad1446f016bdf1a242b66889f84711dcab1faaf
   containerd_sha256: f5f938513c28377f64f85e84f2750d39f26b01262f3a062b7e8ce35b560ca407

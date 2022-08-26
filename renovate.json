@@ -24,13 +24,5 @@
             "extractVersionTemplate": "^core-(?<version>.*)$",
             "datasourceTemplate": "github-tags"
         }
-    ],
-    "packageRules": [
-        {
-            "matchPackageNames": [
-                "tcltk/tcl"
-            ],
-            "allowedVersions": "!/[a-z]+/"
-        }
     ]
 }

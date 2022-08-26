@@ -12,12 +12,12 @@ vars:
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=docker versioning=loose depName=ghcr.io/siderolabs/bldr
-  bldr_version: v0.2.0-alpha.7-frontend
+  bldr_version: v0.2.0-alpha.8-frontend
 
   # renovate: datasource=docker versioning=loose depName=ubuntu
   ubuntu_image_version: 22.10
 
-  # renovate: datasource=github-tags depName=containerd/containerd
+  # renovate: datasource=github-releases depName=containerd/containerd
   containerd_version: v1.6.7
   containerd_ref: 0197261a30bf81f1ee8e6a4dd2dea0ef95d67ccb
   containerd_sha256: f5f938513c28377f64f85e84f2750d39f26b01262f3a062b7e8ce35b560ca407

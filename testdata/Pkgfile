@@ -6,12 +6,7 @@ vars:
   BOOTSTRAP: /bootstrap
   TOOLCHAIN_IMAGE: ghcr.io/siderolabs/toolchain:v0.6.0-2-gee7deca
 
-  # renovate: depName=tcltk/tcl
-  tcl_version: 8-6-9
-  tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
-  tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
-
-  # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)?$ depName=tcltk/tcl
+  # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ depName=tcltk/tcl
   tcl_version: 8-6-9
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a

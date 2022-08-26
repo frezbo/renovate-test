@@ -20,12 +20,6 @@
                 "tcltk/tcl"
             ],
             "allowedVersions": "!/\\d+\\-\\d+\\-[a-z0-9]+/"
-        },
-        {
-            "matchPackageNames": [
-                "https://github.com/tcltk/tcl"
-            ],
-            "allowedVersions": "!/\\d+\\-\\d+\\-[a-z0-9]+/"
         }
     ]
 }

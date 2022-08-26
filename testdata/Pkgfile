@@ -11,6 +11,10 @@ vars:
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
+  # renovate: datasource=git-tags depName=https://gitlab.com/nvidia/container-toolkit/libnvidia-container.git
+  container_toolkit_version: v1.9.0
+  container_toolkit_ref: 56ad97b8
+
   # renovate: datasource=docker versioning=loose depName=ghcr.io/siderolabs/bldr
   bldr_version: v0.2.0-alpha.8-frontend
 

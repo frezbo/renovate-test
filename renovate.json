@@ -12,31 +12,24 @@
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
             ],
             "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
-        },
-        {
-            "fileMatch": [
-                "testdata/Pkgfile"
-            ],
-            "matchStrings": [
-                "# syntax\\s+=\\s+(?<depName>ghcr.io\\/siderolabs\\/bldr):(?<currentValue>v.*)\\n"
-            ],
-            "datasourceTemplate": "docker",
-            "versioningTemplate": "semver"
         }
     ],
     "packageRules": [
         {
-            "matchPackageNames": [
-                "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
-            ],
-            "allowedVersions": "<= 5.15"
-        },
-        {
             "matchPackageNames": "tcltk/tcl",
             "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
+        },
+        {
+            "matchPackageNames": [
+                "tcltk/tcl"
+            ],
+            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
+        },
+        {
+            "matchPackageNames": [
+                "https://github.com/tcltk/tcl"
+            ],
+            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
         }
-    ],
-    "schedule": [
-        "at any time"
     ]
 }

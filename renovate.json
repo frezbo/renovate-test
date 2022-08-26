@@ -9,7 +9,7 @@
                 "testdata/Pkgfile"
             ],
             "matchStrings": [
-                "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)"
+                "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.*?)?\\s.*_version:\\s*(?<currentValue>.*)(?:\\s.*_ref:\\s+(?<currentDigest>.*))?"
             ],
             "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
         }
@@ -19,7 +19,7 @@
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
-            "allowedVersions": "/\d+\-\d+\-\d+?/"
+            "allowedVersions": "/[0-9]+-[0-9]+-[0-9]+/"
         }
     ]
 }

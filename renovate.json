@@ -16,20 +16,16 @@
     ],
     "packageRules": [
         {
-            "matchPackageNames": "tcltk/tcl",
-            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
-        },
-        {
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
-            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
+            "allowedVersions": "!/\\d+\\-\\d+\\-[a-z0-9]+/"
         },
         {
             "matchPackageNames": [
                 "https://github.com/tcltk/tcl"
             ],
-            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
+            "allowedVersions": "!/\\d+\\-\\d+\\-[a-z0-9]+/"
         }
     ]
 }

@@ -19,7 +19,7 @@
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
-            "allowedVersions": "!/\\d+\\-\\d+\\-[a-z0-9]+/"
+            "allowedVersions": "!/\\d+\\-[a-z0-9-]+/"
         }
     ]
 }

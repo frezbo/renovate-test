@@ -33,7 +33,7 @@
         },
         {
             "matchPackageNames": "tcltk/tcl",
-            "versionScheme": "regex:^core-(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
+            "versionScheme": "regex:^(?<major>\\d+)\\-(?<minor>\\d+)\\-(?<patch>\\d+)"
         }
     ],
     "schedule": [

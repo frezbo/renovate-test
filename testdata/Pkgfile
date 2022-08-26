@@ -13,7 +13,7 @@ vars:
 
   # renovate: datasource=git-tags depName=https://gitlab.com/nvidia/container-toolkit/libnvidia-container.git
   container_toolkit_version: v1.9.0
-  container_toolkit_ref: 56ad97b8
+  container_toolkit_ref: 5e135c17d6dbae861ec343e9a8d3a0d2af758a4f
 
   # renovate: datasource=docker versioning=loose depName=ghcr.io/siderolabs/bldr
   bldr_version: v0.2.0-alpha.8-frontend

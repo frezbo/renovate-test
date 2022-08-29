@@ -16,6 +16,24 @@
     ],
     "packageRules": [
         {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchDatasources": [
+                "docker"
+            ],
+            "groupName": "docker"
+        },
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchDatasources": [
+                "go"
+            ],
+            "groupName": "golang"
+        },
+        {
             "matchPackageNames": [
                 "tcltk/tcl"
             ],

@@ -47,6 +47,12 @@
             "matchPackagePatterns": [
                 "*"
             ],
+            "matchDatasources": [
+                "git-refs",
+                "git-tags",
+                "github-tags",
+                "github-releases"
+            ],
             "groupName": "releases"
         },
         {

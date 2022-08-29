@@ -1,7 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
         ":semanticCommitScopeDisabled"
     ],
     "prHeader": "Update Request | Renovate Bot",
@@ -24,7 +23,7 @@
             "matchDatasources": [
                 "docker"
             ],
-            "groupName": "docker"
+            "groupName": "container images"
         },
         {
             "matchPackagePatterns": [
@@ -33,7 +32,22 @@
             "matchDatasources": [
                 "go"
             ],
-            "groupName": "golang"
+            "groupName": "go packages"
+        },
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchDatasources": [
+                "npm"
+            ],
+            "groupName": "node packages"
+        },
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "groupName": "releases"
         },
         {
             "matchPackageNames": [

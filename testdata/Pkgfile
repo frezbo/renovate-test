@@ -21,6 +21,11 @@ vars:
   # renovate: datasource=docker versioning=loose depName=ubuntu
   ubuntu_image_version: 22.04
 
+  # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl
+  tcl_version: 8-6-9
+  tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
+  tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
+
   # renovate: datasource=docker versioning=docker depName=node
   node_image_version: 18.7.0-alpine3.16
 

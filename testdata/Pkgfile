@@ -30,5 +30,8 @@ vars:
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
   ipxe_ref: 3b81a4e2568cfca50893095638a03069785cd33e
 
+  # datasource=go depName=google.golang.org/grpc/cmd/protoc-gen-go-grpc
+  grpc_go_version: v1.1.0
+
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

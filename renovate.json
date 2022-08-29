@@ -30,7 +30,8 @@
                 "*"
             ],
             "matchDatasources": [
-                "go"
+                "go",
+                "golang-version"
             ],
             "groupName": "go packages"
         },

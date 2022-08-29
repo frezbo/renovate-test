@@ -6,7 +6,7 @@
     "regexManagers": [
         {
             "fileMatch": [
-                "testdata/Pkgfile"
+                "Pkgfile"
             ],
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s(?:\\s+.*_version:\\s+(?<currentValue>.*))?(?:\\s.*_ref:\\s+(?<currentDigest>.*))?"

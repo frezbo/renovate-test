@@ -18,7 +18,7 @@ vars:
   # renovate: datasource=docker versioning=loose depName=ghcr.io/siderolabs/bldr
   bldr_version: v0.2.0-alpha.8-frontend
 
-  # renovate: datasource=docker versioning=loose depName=ubuntu
+  # renovate: datasource=docker versioning=docker depName=ubuntu
   ubuntu_image_version: 22.04
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl

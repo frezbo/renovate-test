@@ -1,7 +1,9 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        ":semanticCommitScopeDisabled"
+        ":dependencyDashboard",
+        ":semanticCommitScopeDisabled",
+	":gitSignOff"
     ],
     "prHeader": "Update Request | Renovate Bot",
     "regexManagers": [

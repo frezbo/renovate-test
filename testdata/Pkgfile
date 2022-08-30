@@ -22,7 +22,7 @@ vars:
   ubuntu_image_version: 22.04
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl
-  tcl_version: 8-6-9
+  tcl_version: 8-6-12
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
@@ -36,7 +36,7 @@ vars:
   containerd_sha512: c204c028cdfd76537d1da01c66526fc85b29b02d2412569bb9b265375603614b037356c61846025a72281398f0f46df326a5ea3df97f57901cce85f2f728f0ba
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: 3b81a4e2568cfca50893095638a03069785cd33e
+  ipxe_ref: a80124456ee9ade7a63b69f167c3b1348c8d93c0
 
   # renovate: datasource=go depName=google.golang.org/grpc/cmd/protoc-gen-go-grpc
   grpc_go_version: v1.1.0

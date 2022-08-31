@@ -16,7 +16,7 @@ vars:
   container_toolkit_ref: 395fd41701117121f1fd04ada01e1d7e006a37ae
 
   # renovate: datasource=github-releases extractVersion=^(?<version>v\\d+\\.\\d+) depName=siderolabs/talos
-  talos_version: v0.10
+  talos_version: v0.10.0
 
   # renovate: datasource=docker versioning=docker depName=ghcr.io/siderolabs/bldr
   bldr_version: v0.2.0-alpha.7-frontend

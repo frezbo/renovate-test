@@ -3,7 +3,7 @@
     "extends": [
         ":dependencyDashboard",
         ":semanticCommitScopeDisabled",
-	":gitSignOff"
+        ":gitSignOff"
     ],
     "prHeader": "Update Request | Renovate Bot",
     "regexManagers": [
@@ -18,6 +18,12 @@
         }
     ],
     "packageRules": [
+        {
+            "matchPackageNames": [
+                "siderolabs/talos"
+            ],
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?$"
+        },
         {
             "matchPackagePatterns": [
                 "*"

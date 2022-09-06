@@ -28,7 +28,7 @@
             "matchPackageNames": [
                 "Perl/perl5"
             ],
-            "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d[02468]+)\\.(?<patch>\\d+)$"
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d[02468]+)\\.(?<patch>\\d+)$"
         },
         {
             "matchPackagePatterns": [

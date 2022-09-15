@@ -5,7 +5,7 @@ project_name = "renovate-test"
 github_repo = "frezbo/renovate-test"
 match_deps = "^github.com/(frezbo/[a-zA-Z0-9-]+)$"
 
-previous = "v0.1.0-alpha.4"
+previous = "v0.1.0-alpha.5"
 pre_release = true
 
 [notes]

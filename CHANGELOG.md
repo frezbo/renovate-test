@@ -1,3 +1,29 @@
+## [renovate-test 0.1.0-alpha.4](https://github.com/frezbo/renovate-test/releases/tag/v0.1.0-alpha.4) (2022-09-15)
+
+Welcome to the v0.1.0-alpha.4 release of renovate-test!  
+*This is a pre-release of renovate-test*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/frezbo/renovate-test/issues.
+
+### Contributors
+
+
+### Changes
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v0.1.0-alpha.3](https://github.com/frezbo/renovate-test/releases/tag/v0.1.0-alpha.3)
+
 ## [renovate-test 0.1.0-alpha.3](https://github.com/frezbo/renovate-test/releases/tag/v0.1.0-alpha.3) (2022-09-15)
 
 Welcome to the v0.1.0-alpha.3 release of renovate-test!  

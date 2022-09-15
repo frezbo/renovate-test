@@ -1,5 +1,6 @@
 CONFORMANCE_IMAGE ?= ghcr.io/siderolabs/conform:latest
 ARTIFACTS ?= _out
+TAG ?= $(shell git describe --tag --always --dirty)
 
 .PHONY: conformance
 conformance:

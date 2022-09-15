@@ -1,0 +1,11 @@
+builds:
+  - binary: main
+    dir: .
+    env:
+      - CGO_ENABLED=0
+    main: .
+changelog:
+  skip: false
+release:
+  disable: false
+  draft: true

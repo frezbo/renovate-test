@@ -12,8 +12,8 @@ vars:
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=git-tags depName=https://gitlab.com/nvidia/container-toolkit/libnvidia-container.git
-  container_toolkit_version: v1.10.0
-  container_toolkit_ref: 395fd41701117121f1fd04ada01e1d7e006a37ae
+  container_toolkit_version: v1.11.0
+  container_toolkit_ref: c8f267be0bac1c654d59ad4ea5df907141149977
 
   # renovate: datasource=github-releases extractVersion=^(?<version>v\d+\.\d+)\.\d+$ depName=siderolabs/talos
   talos_version: v1.2
@@ -39,16 +39,16 @@ vars:
   containerd_sha512: c204c028cdfd76537d1da01c66526fc85b29b02d2412569bb9b265375603614b037356c61846025a72281398f0f46df326a5ea3df97f57901cce85f2f728f0ba
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: a80124456ee9ade7a63b69f167c3b1348c8d93c0
+  ipxe_ref: 081b3eefc48953795122c4b1a38430498e2bb2b6
 
   # renovate: datasource=go depName=google.golang.org/grpc/cmd/protoc-gen-go-grpc
   grpc_go_version: v1.2.0
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=protocolbuffers/protobuf
-  protobuf_version: 3.19.1
+  protobuf_version: 3.21.6
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=Perl/perl5
-  perl_version: 5.34.0
+  perl_version: 5.36.0
 
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

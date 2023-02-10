@@ -50,5 +50,8 @@ vars:
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=Perl/perl5
   perl_version: 5.34.0
 
+  # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
+  nvidia_driver_version: 525.60.13
+
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

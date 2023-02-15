@@ -53,5 +53,11 @@ vars:
   # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
   nvidia_driver_version: 525.60.13
 
+  # renovate: datasource=github-releases extractVersion=^curl-(?<version>.*)$ depName=curl/curl
+  curl_version: 7_84_0
+
+  # renovate: datasource=github-releases extractVersion=^R_(?<version>.*)$ depName=libexpat/libexpat
+  expat_version: 2_4_8
+
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

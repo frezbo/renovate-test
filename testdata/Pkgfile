@@ -56,8 +56,11 @@ vars:
   # renovate: datasource=github-releases extractVersion=^curl-(?<version>.*)$ depName=curl/curl
   curl_version: 7_84_0
 
-  # renovate: datasource=github-releases extractVersion=^R_(?<version>.*)$ depName=libexpat/libexpat
+  # renovate: datasource=github-tags extractVersion=^R_(?<version>.*)$ depName=libexpat/libexpat
   expat_version: 2_4_8
+
+  # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=alisw/gmp
+  gmp_version: 6.2.1
 
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

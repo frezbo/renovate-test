@@ -36,6 +36,13 @@
             ],
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d[02468]+)\\.(?<patch>\\d+)$"
         },
+	{
+            "matchPackageNames": [
+                "curl/curl",
+                "libexpat/libexpat"
+            ],
+            "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$"
+        },
         {
             "matchPackagePatterns": [
                 "*"

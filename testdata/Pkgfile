@@ -62,5 +62,8 @@ vars:
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=alisw/gmp
   gmp_version: 6.0.0
 
+  # renovate: datasource=docker versioning=docker depName=docker/dockerfile-upstream
+  dockerfile_version: 1.2.0-labs
+
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

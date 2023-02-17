@@ -65,5 +65,8 @@ vars:
   # renovate: datasource=docker versioning=docker depName=docker/dockerfile-upstream
   dockerfile_version: 1.2.0-labs
 
+  # renovate: datasource=git-tags extractVersion=^glibc-(?<version>.*)$ depName=https://sourceware.org/git/glibc.git
+  glibc_version: 2.36
+
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain

@@ -16,6 +16,11 @@ vars:
   raspberrypi_firmware_sha256: f34f3591b6e32c12a4f654dca53c897f3a97db056aff182125e89a0965b123b1
   raspberrypi_firmware_sha512: 065ec218f52097eb72cc74143990b8552849e5a352ddfc7f536d58e2c8df81da667b37fbae80f9cff61d61438a9bddb65030074fa0e2ee25338bbfced4a301bd
 
+  # renovate: datasource=github-tags extractVersion=^json-c-(?<version>.*)-.*$ depName=json-c/json-c
+  libjson_c_version: 0.15
+  libjson_c_sha256: 8e45ac8f96ec7791eaf3bb7ee50e9c2100bbbc87b8d0f1d030c5ba8a0288d96b
+  libjson_c_sha512: 255cff99033340b2c2678255d41dae7808f83ed0c102e693d2d9e186bd1f21dd1385fcaa360c0fc087a00965a9567fbda733370e6b518a9be2f1bb0a80439151
+
   # renovate: datasource=github-releases extractVersion=^microcode-(?<version>.*)$ depName=intel/Intel-Linux-Processor-Microcode-Data-Files
   intel_ucode_version: 20220510
   intel_ucode_sha256: f34f3591b6e32c12a4f654dca53c897f3a97db056aff182125e89a0965b123b1

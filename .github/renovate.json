@@ -34,7 +34,7 @@
             "matchPackageNames": [
                 "abseil/abseil-cpp"
             ],
-            "versioning": "regex:^(?<year>\\d{4})(?<month>\\d{2})(?<day>\\d{2})\\.?(?<build>\\d+)?$"
+            "versioning": "regex:^(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})\\.?(?<build>\\d+)?$"
         },
         {
             "matchPackageNames": [

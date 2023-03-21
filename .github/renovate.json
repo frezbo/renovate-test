@@ -32,9 +32,16 @@
         },
         {
             "matchPackageNames": [
-                "abseil/abseil-cpp"
+                "abseil/abseil-cpp",
+                "intel/Intel-Linux-Processor-Microcode-Data-Files"
             ],
             "versioning": "regex:^(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})\\.?(?<build>\\d+)?$"
+        },
+        {
+            "matchPackageNames": [
+                "raspberrypi/firmware"
+            ],
+            "versioning": "regex:^1\\.(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})$"
         },
         {
             "matchPackageNames": [

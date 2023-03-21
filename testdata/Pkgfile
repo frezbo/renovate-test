@@ -12,7 +12,7 @@ vars:
   abseil_sha512: 160764e2d10f1a5970b6ea7323868d231070c57b48fcc92e3614bca9d0e9ee0a571b66dfdc560934883de542f32dfbb1ba7b03c11bda8f03e63a5f31e273be6a
 
   # renovate: datasource=git-tags extractVersion=^OpenSSL_(?<version>.*)$ depName=git://git.openssl.org/openssl.git
-  openssl_version: 1_1_1s
+  openssl_version: 1_1_1r
   openssl_sha256: 8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b
   openssl_sha512: 628676c9c3bc1cf46083d64f61943079f97f0eefd0264042e40a85dbbd988f271bfe01cd1135d22cc3f67a298f1d078041f8f2e97b0da0d93fe172da573da18c
 

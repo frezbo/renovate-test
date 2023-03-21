@@ -53,7 +53,7 @@
             "matchPackageNames": [
                 "git://git.openssl.org/openssl.git"
             ],
-            "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?(?<build>\\w+)?$"
+            "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?(?<build>.*)?$"
         },
         {
             "matchPackageNames": [

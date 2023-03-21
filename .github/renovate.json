@@ -24,7 +24,7 @@
             ],
             "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?$"
         },
-	{
+        {
             "matchPackageNames": [
                 "nvidia/open-gpu-kernel-modules"
             ],
@@ -32,18 +32,30 @@
         },
         {
             "matchPackageNames": [
+                "abseil/abseil-cpp"
+            ],
+            "versioning": "regex:^(?<year>\\d{4})(?<month>\\d{2})(?<day>\\d{2})\\.?(?<build>\\d+)?$"
+        },
+        {
+            "matchPackageNames": [
                 "Perl/perl5"
             ],
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d[02468]+)\\.(?<patch>\\d+)$"
         },
-	{
+        {
             "matchPackageNames": [
                 "curl/curl",
                 "libexpat/libexpat"
             ],
             "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$"
         },
-	{
+        {
+            "matchPackageNames": [
+                "git://git.openssl.org/openssl.git"
+            ],
+            "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?(?<build>\\w+)?$"
+        },
+        {
             "matchPackageNames": [
                 "https://sourceware.org/git/glibc.git"
             ],

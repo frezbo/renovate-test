@@ -40,7 +40,7 @@
         },
         {
             "matchPackageNames": [
-                "actions/checout"
+                "actions/checkout"
             ],
             "versioning": "regex:^(?<major>\\d+)"
         },

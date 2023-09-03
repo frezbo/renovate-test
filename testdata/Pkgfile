@@ -50,7 +50,7 @@ vars:
   ubuntu_image_version: 22.10
 
   # renovate: datasource=docker versioning=docker depName=cgr.dev/chainguard/wolfi-base
-  wolfi_base_version: sha256:255b803e19a867695128b838d54f115cbd0dfaa34d78a5119a4c23212814ae95
+  wolfi_base_version: latest:sha256:255b803e19a867695128b838d54f115cbd0dfaa34d78a5119a4c23212814ae95
 
   # renovate: datasource=github-releases depName=actions/checkout
   actions_checkout_version: v2

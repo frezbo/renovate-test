@@ -33,9 +33,16 @@
         {
             "matchPackageNames": [
                 "abseil/abseil-cpp",
-                "intel/Intel-Linux-Processor-Microcode-Data-Files"
+                "intel/Intel-Linux-Processor-Microcode-Data-Files",
+                "git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git"
             ],
             "versioning": "regex:^(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})\\.?(?<build>\\d+)?$"
+        },
+        {
+            "matchPackageNames": [
+                "actions/checout"
+            ],
+            "versioning": "regex:^(?<major>\\d+)"
         },
         {
             "matchPackageNames": [

@@ -40,12 +40,6 @@
         },
         {
             "matchPackageNames": [
-                "actions/checkout"
-            ],
-            "versioning": "regex:^(?<major>\\d+)"
-        },
-        {
-            "matchPackageNames": [
                 "raspberrypi/firmware"
             ],
             "versioning": "regex:^\\d+\\.(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})$"

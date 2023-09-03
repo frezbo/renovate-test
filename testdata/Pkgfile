@@ -52,7 +52,7 @@ vars:
   # renovate: datasource=docker versioning=docker depName=cgr.dev/chainguard/wolfi-base
   wolfi_base_ref: sha256:255b803e19a867695128b838d54f115cbd0dfaa34d78a5119a4c23212814ae95
 
-  # renovate: datasource=github-releases extractVersion=^(?<version>v\d+)$ depName=actions/checkout
+  # renovate: datasource=github-releases extractVersion=^(?<version>v\d+)\.\d+\.\d+$ depName=actions/checkout
   actions_checkout_version: v2
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl

@@ -40,7 +40,8 @@
         },
         {
             "matchPackageNames": [
-                "actions/checkout"
+                "actions/checkout",
+                "potiuk/get-workflow-origin"
             ],
             "versioning": "regex:^v(?<major>\\d+)"
         },

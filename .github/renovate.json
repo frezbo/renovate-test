@@ -59,10 +59,15 @@
         {
             "matchPackageNames": [
                 "curl/curl",
-                "libexpat/libexpat",
-                "potiuk/get-workflow-origin"
+                "libexpat/libexpat"
             ],
             "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$"
+        },
+        {
+            "matchPackageNames": [
+                "potiuk/get-workflow-origin"
+            ],
+            "versioning": "regex:^v(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$"
         },
         {
             "matchPackageNames": [

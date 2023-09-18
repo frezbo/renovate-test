@@ -56,7 +56,7 @@ vars:
   actions_checkout_version: v2
 
   # renovate: datasource=github-releases depName=potiuk/get-workflow-origin
-  workflow_run_origin_version: v0
+  workflow_run_origin_version: v1_5
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl
   tcl_version: 8-6-12

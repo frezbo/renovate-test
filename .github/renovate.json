@@ -40,8 +40,7 @@
         },
         {
             "matchPackageNames": [
-                "actions/checkout",
-                "potiuk/get-workflow-origin"
+                "actions/checkout"
             ],
             "versioning": "regex:^v(?<major>\\d+)"
         },
@@ -60,7 +59,8 @@
         {
             "matchPackageNames": [
                 "curl/curl",
-                "libexpat/libexpat"
+                "libexpat/libexpat",
+                "potiuk/get-workflow-origin"
             ],
             "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$"
         },

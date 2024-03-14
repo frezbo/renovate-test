@@ -26,6 +26,12 @@
         },
         {
             "matchPackageNames": [
+                "systemd/systemd"
+            ],
+            "versioning": "regex:^(?<major>\\d+)\\.?(?<minor>\\d+)?\\.?(?<patch>\\d+)?$"
+        },
+        {
+            "matchPackageNames": [
                 "nvidia/open-gpu-kernel-modules"
             ],
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?$"

@@ -6,6 +6,11 @@ vars:
   BOOTSTRAP: /bootstrap
   TOOLCHAIN_IMAGE: ghcr.io/siderolabs/toolchain:v0.6.0-2-gee7deca
 
+  # renovate: datasource=github-releases extractVersion=^v(?<version>.*)$ depName=systemd/systemd
+  systemd_version: 253
+  systemd_sha256: acbd86d42ebc2b443722cb469ad215a140f504689c7a9133ecf91b235275a491
+  systemd_sha512: 3bbc431a292ab590b70d3b490a528f71d30ccf478ddfa66d1c210f40c260ef49ac30651c19f2d073acf38d68398a4a6fbf95391f0e3ea0333d94b9d4e81d514f
+
   # renovate: datasource=github-releases depName=abseil/abseil-cpp
   abseil_version: 20230125.0
   abseil_sha256: 81311c17599b3712069ded20cca09a62ab0bf2a89dfa16993786c8782b7ed145

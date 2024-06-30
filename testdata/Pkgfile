@@ -113,9 +113,9 @@ vars:
   stargz_snapshotter_version: v0.14.3
   # renovate: datasource=github-releases depName=kubernetes/cloud-provider-aws
   cloud_provider_aws_version: v1.30.0
-  # renovate: datasource=github-tags extractVersion=^containerd-shim-wasmedge\/(?<version>.*)$ depName=containerd/runwasi
+  # renovate: datasource=github-tags extractVersion=^containerd-shim-wasmedge\\/(?<version>.*)$ depName=containerd/runwasi
   wasmedge_version: v0.3.0
-  # renovate: datasource=github-tags depName=spinkube/containerd-shim-spin
+  # renovate: datasource=github-releases depName=spinkube/containerd-shim-spin
   spin_version: v0.14.1
   # renovate: datasource=github-releases depName=kata-containers/kata-containers
   kata_containers_version: 3.3.0

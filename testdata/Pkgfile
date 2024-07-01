@@ -115,7 +115,7 @@ vars:
   cloud_provider_aws_version: v1.30.0
   # renovate: datasource=git-tags extractVersion=^containerd-shim-wasmedge\/(?<version>.*)$ depName=https://github.com/containerd/runwasi.git
   wasmedge_version: v0.3.0
-  # renovate: datasource=git-tags depName=spinkube/containerd-shim-spin
+  # renovate: datasource=git-tags depName=https://github.com/spinkube/containerd-shim-spin.git
   spin_version: v0.14.1
   # renovate: datasource=github-releases depName=kata-containers/kata-containers
   kata_containers_version: 3.3.0

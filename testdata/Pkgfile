@@ -81,7 +81,7 @@ vars:
   ipxe_ref: a80124456ee9ade7a63b69f167c3b1348c8d93c0
 
   # renovate: datasource=go depName=google.golang.org/grpc/cmd/protoc-gen-go-grpc
-  grpc_go_version: v1.2.0
+  grpc_go_version: v1.5.1
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=protocolbuffers/protobuf
   protobuf_version: 3.19.1

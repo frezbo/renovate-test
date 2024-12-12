@@ -49,13 +49,13 @@ vars:
   talos_version: v1.2
 
   # renovate: datasource=docker versioning=semver depName=ghcr.io/siderolabs/bldr
-  bldr_version: v0.2.0-alpha.7-frontend
+  bldr_version: v0.3.2
 
   # renovate: datasource=docker versioning=docker depName=ubuntu
   ubuntu_image_version: 22.10
 
   # renovate: datasource=docker versioning=docker depName=cgr.dev/chainguard/wolfi-base
-  wolfi_base_ref: sha256:255b803e19a867695128b838d54f115cbd0dfaa34d78a5119a4c23212814ae95
+  wolfi_base_ref: sha256:56614cdca9ca3f091f18e594148e65427109a3c45f30d79263eecf4b711c5ae9
 
   # renovate: datasource=github-releases extractVersion=^(?<version>v\d+)\.\d+\.\d+$ depName=actions/checkout
   actions_checkout_version: v2
@@ -69,7 +69,7 @@ vars:
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=docker versioning=docker depName=node
-  node_image_version: 18.8.0-alpine3.16
+  node_image_version: 18.16.0-alpine3.16
 
   # renovate: datasource=github-tags depName=containerd/containerd
   containerd_version: v1.6.8
@@ -102,7 +102,7 @@ vars:
   gmp_version: 6.0.0
 
   # renovate: datasource=docker versioning=docker depName=docker/dockerfile-upstream
-  dockerfile_version: 1.2.0-labs
+  dockerfile_version: 1.12.0-labs
 
   # renovate: datasource=git-tags extractVersion=^glibc-(?<version>.*)$ depName=https://sourceware.org/git/glibc.git
   glibc_version: 2.36

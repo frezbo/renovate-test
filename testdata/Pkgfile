@@ -31,7 +31,7 @@ vars:
   intel_ucode_sha256: f34f3591b6e32c12a4f654dca53c897f3a97db056aff182125e89a0965b123b1
   intel_ucode_sha512: 065ec218f52097eb72cc74143990b8552849e5a352ddfc7f536d58e2c8df81da667b37fbae80f9cff61d61438a9bddb65030074fa0e2ee25338bbfced4a301bd
 
-  # renovate: datasource=git-tags extractVersion=^OpenSSL_(?<version>.*)$ depName=git://git.openssl.org/openssl.git
+  # renovate: datasource=github-releases extractVersion=^openssl-(?<version>.*)$ depName=openssl/openssl
   openssl_version: 1_1_1r
   openssl_sha256: 8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b
   openssl_sha512: 628676c9c3bc1cf46083d64f61943079f97f0eefd0264042e40a85dbbd988f271bfe01cd1135d22cc3f67a298f1d078041f8f2e97b0da0d93fe172da573da18c

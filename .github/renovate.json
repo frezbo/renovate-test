@@ -6,8 +6,9 @@
         ":gitSignOff"
     ],
     "prHeader": "Update Request | Renovate Bot",
-    "regexManagers": [
+    "customManagers": [
         {
+            "customType": "regex",
             "fileMatch": [
                 "Pkgfile"
             ],
@@ -94,50 +95,19 @@
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>[0-9]{1,3})?$"
         },
         {
-            "matchPackagePatterns": [
-                "*"
-            ],
-            "matchDatasources": [
-                "docker"
-            ],
-            "groupName": "container images"
-        },
-        {
-            "matchPackagePatterns": [
-                "*"
-            ],
-            "matchDatasources": [
-                "go",
-                "golang-version"
-            ],
-            "groupName": "go packages"
-        },
-        {
-            "matchPackagePatterns": [
-                "*"
-            ],
-            "matchDatasources": [
-                "npm"
-            ],
-            "groupName": "node packages"
-        },
-        {
-            "matchPackagePatterns": [
-                "*"
-            ],
-            "matchDatasources": [
-                "git-refs",
-                "git-tags",
-                "github-tags",
-                "github-releases"
-            ],
-            "groupName": "releases"
-        },
-        {
             "matchPackageNames": [
                 "tcltk/tcl"
             ],
             "versioning": "regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)?$"
+        },
+        {
+            "matchDatasources": [
+                "*"
+            ],
+            "groupName": "releases",
+            "matchPackageNames": [
+                "*"
+            ]
         }
     ]
 }

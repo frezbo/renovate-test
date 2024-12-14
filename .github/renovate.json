@@ -5,6 +5,7 @@
         ":semanticCommitScopeDisabled",
         ":gitSignOff"
     ],
+    "separateMajorMinor": false,
     "prHeader": "Update Request | Renovate Bot",
     "customManagers": [
         {

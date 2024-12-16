@@ -22,15 +22,12 @@
     "packageRules": [
         {
             "enabled": false,
-            "matchFileNames": [
+            "matchFiles": [
                 "hack/test/libvirt/docker-compose.yaml"
             ]
         },
         {
             "enabled": false,
-            "matchDataSources": [
-                "npm"
-            ],
             "matchFileNames": [
                 "website/**"
             ]

@@ -30,6 +30,24 @@
             ],
             "groupName": "releases"
         },
+	{
+            "enabled": false,
+            "matchDataSources": [
+                "docker"
+            ],
+            "matchFileNames": [
+                "hack/test/libvirt/docker-compose.yaml"
+            ]
+        },
+        {
+            "enabled": false,
+            "matchDataSources": [
+                "npm"
+            ],
+            "matchFileNames": [
+                "website/**"
+            ]
+        },
         {
             "matchPackageNames": [
                 "siderolabs/talos"

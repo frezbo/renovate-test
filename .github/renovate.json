@@ -21,18 +21,8 @@
     ],
     "packageRules": [
         {
-            "matchUpdateTypes": [
-                "major",
-                "minor",
-                "patch",
-                "pin",
-                "digest"
-            ],
-            "groupName": "releases"
-        },
-	{
             "enabled": false,
-            "matchDataSources": [
+            "matchDatasources": [
                 "docker"
             ],
             "matchFileNames": [
@@ -47,6 +37,16 @@
             "matchFileNames": [
                 "website/**"
             ]
+        },
+        {
+            "matchUpdateTypes": [
+                "major",
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "groupName": "releases"
         },
         {
             "matchPackageNames": [

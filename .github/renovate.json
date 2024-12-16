@@ -22,9 +22,6 @@
     "packageRules": [
         {
             "enabled": false,
-            "matchDatasources": [
-                "docker"
-            ],
             "matchFileNames": [
                 "hack/test/libvirt/docker-compose.yaml"
             ]

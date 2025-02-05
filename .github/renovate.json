@@ -10,6 +10,16 @@
     "customManagers": [
         {
             "customType": "regex",
+            "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}",
+            "fileMatch": [
+                "main.go"
+            ],
+            "matchStrings": [
+                "\\/\\/\\s+renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s.*Image\\s+=\\s+\\\"(.+?)(?<=:)(?<currentValue>.+?)\\\""
+            ]
+        },
+        {
+            "customType": "regex",
             "fileMatch": [
                 "Pkgfile"
             ],

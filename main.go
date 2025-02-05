@@ -8,7 +8,7 @@ import (
 
 // DefaultBaseImage for non-scratch builds.
 // renovate: datasource=docker versioning=docker depName=alpine
-const DefaultBaseImage = "docker.io/alpine:3.21"
+const DefaultBaseImageVersion = "docker.io/alpine:3.21"
 
 // DefaultDirMode is UNIX file mode for mkdir.
 const DefaultDirMode os.FileMode = 0o755
@@ -27,7 +27,7 @@ const Pkgfile = "Pkgfile"
 
 // StageXBusyboxImage is the image name for busybox from stageX.
 // renovate: datasource=docker versioning=docker depName=ghcr.io/siderolabs/stagex/core-busybox
-const StageXBusyboxImage = "ghcr.io/siderolabs/stagex/core-busybox@sha256:c0b551b47d8f1ac2fd5f4712eafddb8717e6e563a47203e02f94f944f64c18b2"
+const StageXBusyboxImageRef = "ghcr.io/siderolabs/stagex/core-busybox@sha256:c0b551b47d8f1ac2fd5f4712eafddb8717e6e563a47203e02f94f944f64c18b2"
 
 func main() {
 }

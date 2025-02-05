@@ -15,7 +15,7 @@
                 "main.go"
             ],
             "matchStrings": [
-                "\\/\\/\\s+renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s.*Image\\s+=\\s+\\\"(.+?)(:|@)(?<currentValue>.+?)\\\""
+                "\\/\\/\\s+renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s(?:.*ImageVersion\\s+=\\s+\\\"(.+?):(?<currentValue>.+?)\\\")?(?:(\\s)?.*(?:ImageRef\\s+=\\s+\\\"(.+?)(:|@)(?<currentDigest>.+?)\\\"))?"
             ]
         },
         {

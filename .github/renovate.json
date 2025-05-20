@@ -11,8 +11,8 @@
         {
             "customType": "regex",
             "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}",
-            "fileMatch": [
-                "main.go"
+            "managerFilePatterns": [
+                "/main.go/"
             ],
             "matchStrings": [
                 "\\/\\/\\s+renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s(?:.*ImageVersion\\s+=\\s+\\\"(.+?):(?<currentValue>.+?)\\\")?(?:(\\s)?.*(?:ImageRef\\s+=\\s+\\\"(.+?)(:|@)(?<currentDigest>.+?)\\\"))?"
@@ -20,8 +20,8 @@
         },
         {
             "customType": "regex",
-            "fileMatch": [
-                "Pkgfile"
+            "managerFilePatterns": [
+                "/Pkgfile/"
             ],
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?)(?:\\s+extractVersion=(?<extractVersion>.+?))?(?:\\s+versioning=(?<versioning>.+?))?\\s+depName=(?<depName>.+?)?\\s(?:\\s+.*_version:\\s+(?<currentValue>.*))?(?:\\s.*_ref:\\s+(?<currentDigest>.*))?"

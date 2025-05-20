@@ -16,8 +16,8 @@ vars:
   abseil_sha256: 81311c17599b3712069ded20cca09a62ab0bf2a89dfa16993786c8782b7ed145
   abseil_sha512: 160764e2d10f1a5970b6ea7323868d231070c57b48fcc92e3614bca9d0e9ee0a571b66dfdc560934883de542f32dfbb1ba7b03c11bda8f03e63a5f31e273be6a
 
-  # renovate: datasource=github-releases extractVersion=^v(?<version>.*)$ depName=flannel-io/cni-plugin
-  flannel_cni_version: 1.5.1-flannel3
+  # renovate: datasource=github-releases depName=flannel-io/cni-plugin
+  flannel_cni_version: v1.5.1-flannel3
   flannel_cni_ref: a3f52e86452cdcdd2d970bb0f89eef248aed0e7c
   flannel_cni_sha256: d66de816e48240b66d8d521f24bddc534c4e05bd83bf9c08aec6cd5e7f2890db
   flannel_cni_sha512: 52e614d867060489e792769219345f6f5ee03e04e30d8a08ae96e9c0881e9c9fa5f6f424888ac1ce610afe13cf29e54da017483a09b6e844e3422b99d00bcdf3

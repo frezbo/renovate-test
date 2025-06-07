@@ -1,8 +1,10 @@
 module renovate-test
 
-go 1.19
+go 1.23.0
 
-require golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094
+toolchain go1.24.4
+
+require golang.org/x/oauth2 v0.30.0
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect

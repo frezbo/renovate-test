@@ -7,33 +7,33 @@ vars:
   TOOLCHAIN_IMAGE: ghcr.io/siderolabs/toolchain:v0.6.0-2-gee7deca
 
   # renovate: datasource=github-releases extractVersion=^v(?<version>.*)$ depName=systemd/systemd
-  systemd_version: 253
+  systemd_version: 257.6
   systemd_sha256: acbd86d42ebc2b443722cb469ad215a140f504689c7a9133ecf91b235275a491
   systemd_sha512: 3bbc431a292ab590b70d3b490a528f71d30ccf478ddfa66d1c210f40c260ef49ac30651c19f2d073acf38d68398a4a6fbf95391f0e3ea0333d94b9d4e81d514f
 
   # renovate: datasource=github-releases depName=abseil/abseil-cpp
-  abseil_version: 20230125.0
+  abseil_version: 20250512.0
   abseil_sha256: 81311c17599b3712069ded20cca09a62ab0bf2a89dfa16993786c8782b7ed145
   abseil_sha512: 160764e2d10f1a5970b6ea7323868d231070c57b48fcc92e3614bca9d0e9ee0a571b66dfdc560934883de542f32dfbb1ba7b03c11bda8f03e63a5f31e273be6a
 
   # renovate: datasource=github-releases depName=flannel-io/cni-plugin
-  flannel_cni_version: v1.5.1-flannel3
-  flannel_cni_ref: a3f52e86452cdcdd2d970bb0f89eef248aed0e7c
+  flannel_cni_version: v1.7.1-flannel1
+  flannel_cni_ref: c11ca80f81318f05375a47046f26c87a3c61dc6f
   flannel_cni_sha256: d66de816e48240b66d8d521f24bddc534c4e05bd83bf9c08aec6cd5e7f2890db
   flannel_cni_sha512: 52e614d867060489e792769219345f6f5ee03e04e30d8a08ae96e9c0881e9c9fa5f6f424888ac1ce610afe13cf29e54da017483a09b6e844e3422b99d00bcdf3
 
   # renovate: datasource=github-tags versioning=loose depName=raspberrypi/firmware
-  raspberrypi_firmware_version: 1.20221028
+  raspberrypi_firmware_version: 1.20250430
   raspberrypi_firmware_sha256: f34f3591b6e32c12a4f654dca53c897f3a97db056aff182125e89a0965b123b1
   raspberrypi_firmware_sha512: 065ec218f52097eb72cc74143990b8552849e5a352ddfc7f536d58e2c8df81da667b37fbae80f9cff61d61438a9bddb65030074fa0e2ee25338bbfced4a301bd
 
   # renovate: datasource=github-tags extractVersion=^json-c-(?<version>.*)-.*$ depName=json-c/json-c
-  libjson_c_version: 0.15
+  libjson_c_version: 0.18
   libjson_c_sha256: 8e45ac8f96ec7791eaf3bb7ee50e9c2100bbbc87b8d0f1d030c5ba8a0288d96b
   libjson_c_sha512: 255cff99033340b2c2678255d41dae7808f83ed0c102e693d2d9e186bd1f21dd1385fcaa360c0fc087a00965a9567fbda733370e6b518a9be2f1bb0a80439151
 
   # renovate: datasource=github-releases extractVersion=^microcode-(?<version>.*)$ depName=intel/Intel-Linux-Processor-Microcode-Data-Files
-  intel_ucode_version: 20220510
+  intel_ucode_version: 20250512
   intel_ucode_sha256: f34f3591b6e32c12a4f654dca53c897f3a97db056aff182125e89a0965b123b1
   intel_ucode_sha512: 065ec218f52097eb72cc74143990b8552849e5a352ddfc7f536d58e2c8df81da667b37fbae80f9cff61d61438a9bddb65030074fa0e2ee25338bbfced4a301bd
 
@@ -43,88 +43,88 @@ vars:
   openssl_sha512: 628676c9c3bc1cf46083d64f61943079f97f0eefd0264042e40a85dbbd988f271bfe01cd1135d22cc3f67a298f1d078041f8f2e97b0da0d93fe172da573da18c
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ depName=tcltk/tcl
-  tcl_version: 8-6-12
+  tcl_version: 9-0-1
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=git-tags depName=https://gitlab.com/nvidia/container-toolkit/libnvidia-container.git
-  container_toolkit_version: v1.10.0
-  container_toolkit_ref: 395fd41701117121f1fd04ada01e1d7e006a37ae
+  container_toolkit_version: v1.15.0
+  container_toolkit_ref: 6c8f1df7fd32cea3280cf2a2c6e931c9b3132465
 
   # renovate: datasource=github-releases extractVersion=^(?<version>v\d+\.\d+)\.\d+$ depName=siderolabs/talos
-  talos_version: v1.2
+  talos_version: v1.10
 
   # renovate: datasource=docker versioning=semver depName=ghcr.io/siderolabs/bldr
-  bldr_version: v0.2.0-alpha.7-frontend
+  bldr_version: v0.4.1
 
   # renovate: datasource=docker versioning=docker depName=ubuntu
-  ubuntu_image_version: 22.10
+  ubuntu_image_version: 25.10
 
   # renovate: datasource=docker versioning=docker depName=cgr.dev/chainguard/wolfi-base
-  wolfi_base_ref: sha256:255b803e19a867695128b838d54f115cbd0dfaa34d78a5119a4c23212814ae95
+  wolfi_base_ref: sha256:08a4c4fc8583c217c853fda751f08495530d105c361b714f6d33ae3edb5ec11c
 
   # renovate: datasource=github-releases extractVersion=^(?<version>v\d+)\.\d+\.\d+$ depName=actions/checkout
-  actions_checkout_version: v2
+  actions_checkout_version: v4
 
   # renovate: datasource=github-releases depName=potiuk/get-workflow-origin
-  workflow_run_origin_version: v1_5
+  workflow_run_origin_version: v1_6
 
   # renovate: datasource=github-tags extractVersion=^core-(?<version>.*)$ versioning=loose depName=tcltk/tcl
-  tcl_version: 8-6-12
+  tcl_version: 9-0-1
   tcl_sha256: 58014662862485f62e95f3804dd4840bc63af3c559f0d7d7fc178792794a20d8
   tcl_sha512: e1dc7b8f1eb6dad1b61cb3136eed8cf538e8f14038795395bd21052bea491a3770af8523148a5fc2507afcb370f6b91612bb94810e3c7cdce47a710bc432f67a
 
   # renovate: datasource=docker versioning=docker depName=node
-  node_image_version: 18.8.0-alpine3.16
+  node_image_version: 20.2.0-alpine3.16
 
   # renovate: datasource=github-tags depName=containerd/containerd
-  containerd_version: v1.6.8
-  containerd_ref: 9cd3357b7fd7218e4aec3eae239db1f68a5a6ec6
+  containerd_version: v2.1.2
+  containerd_ref: 64ed272067a24c2d917064eea25a78e1479d632f
   containerd_sha256: f5f938513c28377f64f85e84f2750d39f26b01262f3a062b7e8ce35b560ca407
   containerd_sha512: c204c028cdfd76537d1da01c66526fc85b29b02d2412569bb9b265375603614b037356c61846025a72281398f0f46df326a5ea3df97f57901cce85f2f728f0ba
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: a80124456ee9ade7a63b69f167c3b1348c8d93c0
+  ipxe_ref: 5783a10f721d8f10d535dd2f69a9382c5ef7be7b
 
   # renovate: datasource=go depName=google.golang.org/grpc/cmd/protoc-gen-go-grpc
-  grpc_go_version: v1.2.0
+  grpc_go_version: v1.5.1
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=protocolbuffers/protobuf
-  protobuf_version: 3.19.1
+  protobuf_version: 6.31.1
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=Perl/perl5
-  perl_version: 5.34.0
+  perl_version: 5.40.2
 
   # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
-  nvidia_driver_version: 525.60.13
+  nvidia_driver_version: 575.57.08
 
   # renovate: datasource=github-releases extractVersion=^curl-(?<version>.*)$ depName=curl/curl
-  curl_version: 7_84_0
+  curl_version: 8_14_1
 
   # renovate: datasource=github-tags extractVersion=^R_(?<version>.*)$ depName=libexpat/libexpat
-  expat_version: 2_4_8
+  expat_version: 2_7_1
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=alisw/gmp
-  gmp_version: 6.0.0
+  gmp_version: 6.2.1
 
   # renovate: datasource=docker versioning=docker depName=docker/dockerfile-upstream
-  dockerfile_version: 1.2.0-labs
+  dockerfile_version: 1.16.0-labs
 
   # renovate: datasource=git-tags extractVersion=^glibc-(?<version>.*)$ depName=https://sourceware.org/git/glibc.git
-  glibc_version: 2.36
+  glibc_version: 2.41
 
   # renovate: datasource=github-tags extractVersion=^release-(?<version>.*)$ depName=google/gvisor
   gvisor_version: 20240325.0
   # renovate: datasource=github-releases depName=containerd/stargz-snapshotter
-  stargz_snapshotter_version: v0.14.3
+  stargz_snapshotter_version: v0.16.3
   # renovate: datasource=github-releases depName=kubernetes/cloud-provider-aws
-  cloud_provider_aws_version: v1.30.0
+  cloud_provider_aws_version: v1.33.0
   # renovate: datasource=git-tags extractVersion=^containerd-shim-wasmedge\/(?<version>.*)$ depName=https://github.com/containerd/runwasi.git
-  wasmedge_version: v0.3.0
+  wasmedge_version: v0.6.0
   # renovate: datasource=git-tags depName=https://github.com/spinkube/containerd-shim-spin.git
-  spin_version: v0.14.1
+  spin_version: v0.19.0
   # renovate: datasource=github-releases depName=kata-containers/kata-containers
-  kata_containers_version: 3.3.0
+  kata_containers_version: 3.17.0
 
 labels:
   org.opencontainers.image.source: https://github.com/siderolabs/toolchain
